@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E27A34E83FD7CA5EC26E637 /* libPods-PBAPortal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5292B3BC8CFB64F3A9A36312 /* libPods-PBAPortal.a */; };
+		B058DC5B201494BC005633F6 /* doc.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = B058DC5A201494BC005633F6 /* doc.rtfd */; };
+		B07CABAF1FCEDC36008151C5 /* PBHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B07CABB11FCEDC36008151C5 /* PBHome.framework */; };
+		B07CABB01FCEDC36008151C5 /* PBMine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B07CABB21FCEDC36008151C5 /* PBMine.framework */; };
+		B0DFE2A61FC56591008D7DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0DFE2A11FC56590008D7DB2 /* Assets.xcassets */; };
+		B0DFE2A71FC56591008D7DB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DFE2A21FC56590008D7DB2 /* main.m */; };
+		B0DFE2A81FC56591008D7DB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DFE2A31FC56590008D7DB2 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1407A6E75272B150CB33A30E /* Pods-PBAPortal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PBAPortal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PBAPortal/Pods-PBAPortal.debug.xcconfig"; sourceTree = "<group>"; };
+		210BC279542447F815706B29 /* Pods-PBAPortal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PBAPortal.release.xcconfig"; path = "Pods/Target Support Files/Pods-PBAPortal/Pods-PBAPortal.release.xcconfig"; sourceTree = "<group>"; };
+		5292B3BC8CFB64F3A9A36312 /* libPods-PBAPortal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PBAPortal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B058DC5A201494BC005633F6 /* doc.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = doc.rtfd; sourceTree = "<group>"; };
+		B06D54121F6D2E210092623E /* PBAPortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBAPortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07CABB11FCEDC36008151C5 /* PBHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PBHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07CABB21FCEDC36008151C5 /* PBMine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PBMine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0DFE29F1FC56590008D7DB2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0DFE2A01FC56590008D7DB2 /* PBAPortal.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBAPortal.pch; sourceTree = "<group>"; };
+		B0DFE2A11FC56590008D7DB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0DFE2A21FC56590008D7DB2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0DFE2A31FC56590008D7DB2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0DFE2A41FC56590008D7DB2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B06D540F1F6D2E210092623E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07CABAF1FCEDC36008151C5 /* PBHome.framework in Frameworks */,
+				B07CABB01FCEDC36008151C5 /* PBMine.framework in Frameworks */,
+				4E27A34E83FD7CA5EC26E637 /* libPods-PBAPortal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27E3D903BF7DDB9560A14263 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1407A6E75272B150CB33A30E /* Pods-PBAPortal.debug.xcconfig */,
+				210BC279542447F815706B29 /* Pods-PBAPortal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		64FEBD0089CEBB98E393B744 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B07CABB11FCEDC36008151C5 /* PBHome.framework */,
+				B07CABB21FCEDC36008151C5 /* PBMine.framework */,
+				5292B3BC8CFB64F3A9A36312 /* libPods-PBAPortal.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B06D54091F6D2E210092623E = {
+			isa = PBXGroup;
+			children = (
+				B0DFE2A51FC56591008D7DB2 /* Res */,
+				B0DFE29E1FC56590008D7DB2 /* Src */,
+				B06D54131F6D2E210092623E /* Products */,
+				27E3D903BF7DDB9560A14263 /* Pods */,
+				64FEBD0089CEBB98E393B744 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B06D54131F6D2E210092623E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B06D54121F6D2E210092623E /* PBAPortal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0DFE29E1FC56590008D7DB2 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				B0DFE29F1FC56590008D7DB2 /* AppDelegate.h */,
+				B0DFE2A31FC56590008D7DB2 /* AppDelegate.m */,
+				B0DFE2A01FC56590008D7DB2 /* PBAPortal.pch */,
+				B0DFE2A11FC56590008D7DB2 /* Assets.xcassets */,
+				B0DFE2A21FC56590008D7DB2 /* main.m */,
+				B0DFE2A41FC56590008D7DB2 /* Info.plist */,
+				B058DC5A201494BC005633F6 /* doc.rtfd */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		B0DFE2A51FC56591008D7DB2 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B06D54111F6D2E210092623E /* PBAPortal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06D54291F6D2E210092623E /* Build configuration list for PBXNativeTarget "PBAPortal" */;
+			buildPhases = (
+				F3B50731BF7711A5A4FB0467 /* [CP] Check Pods Manifest.lock */,
+				B06D540E1F6D2E210092623E /* Sources */,
+				B06D540F1F6D2E210092623E /* Frameworks */,
+				B06D54101F6D2E210092623E /* Resources */,
+				CC8A22F80BA4112F4E4E1FC7 /* [CP] Embed Pods Frameworks */,
+				E5943E8AB02DDA5598AA0C97 /* [CP] Copy Pods Resources */,
+				B0E093C81FB2AF0100168C83 /* [PB] Copy Debug Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PBAPortal;
+			productName = PBAPortal;
+			productReference = B06D54121F6D2E210092623E /* PBAPortal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B06D540A1F6D2E210092623E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = DaMaiIOS;
+				TargetAttributes = {
+					B06D54111F6D2E210092623E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FFJNMLHK32;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B06D540D1F6D2E210092623E /* Build configuration list for PBXProject "PBAPortal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B06D54091F6D2E210092623E;
+			productRefGroup = B06D54131F6D2E210092623E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B06D54111F6D2E210092623E /* PBAPortal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B06D54101F6D2E210092623E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0DFE2A61FC56591008D7DB2 /* Assets.xcassets in Resources */,
+				B058DC5B201494BC005633F6 /* doc.rtfd in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0E093C81FB2AF0100168C83 /* [PB] Copy Debug Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[PB] Copy Debug Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Scripts/copy_debug_resource.sh\"";
+			showEnvVarsInLog = 0;
+		};
+		CC8A22F80BA4112F4E4E1FC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PBAPortal/Pods-PBAPortal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5943E8AB02DDA5598AA0C97 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PBAPortal/Pods-PBAPortal-resources.sh",
+				"${PODS_ROOT}/PBHome/PBHome.framework/Resource.bundle",
+				"${PODS_ROOT}/PBMine/PBMine.framework/Resource.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PBAPortal/Pods-PBAPortal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3B50731BF7711A5A4FB0467 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PBAPortal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B06D540E1F6D2E210092623E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0DFE2A81FC56591008D7DB2 /* AppDelegate.m in Sources */,
+				B0DFE2A71FC56591008D7DB2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B06D54271F6D2E210092623E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B06D54281F6D2E210092623E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B06D542A1F6D2E210092623E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1407A6E75272B150CB33A30E /* Pods-PBAPortal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = FFJNMLHK32;
+				GCC_PREFIX_HEADER = Src/PBAPortal.pch;
+				INFOPLIST_FILE = Src/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsb.PBAPortal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B06D542B1F6D2E210092623E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 210BC279542447F815706B29 /* Pods-PBAPortal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = FFJNMLHK32;
+				GCC_PREFIX_HEADER = Src/PBAPortal.pch;
+				INFOPLIST_FILE = Src/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsb.PBAPortal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B06D540D1F6D2E210092623E /* Build configuration list for PBXProject "PBAPortal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06D54271F6D2E210092623E /* Debug */,
+				B06D54281F6D2E210092623E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06D54291F6D2E210092623E /* Build configuration list for PBXNativeTarget "PBAPortal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06D542A1F6D2E210092623E /* Debug */,
+				B06D542B1F6D2E210092623E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B06D540A1F6D2E210092623E /* Project object */;
+}

@@ -1,0 +1,26 @@
+PODS:
+  - AFNetworking (3.1.0.14)
+  - PBHome (1.0.2-SNAPSHOT)
+  - PBMine (1.0.2-SNAPSHOT)
+  - SDWebImage (4.1.2):
+    - SDWebImage/Core (= 4.1.2)
+  - SDWebImage/Core (4.1.2)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - AFNetworking (= 3.1.0.14)
+  - PBHome (= 1.0.2-SNAPSHOT)
+  - PBMine (= 1.0.2-SNAPSHOT)
+  - SDWebImage (~> 4.1.0)
+  - YYText (~> 1.0.7)
+
+SPEC CHECKSUMS:
+  AFNetworking: 065650da95fe0af5375e34db74c3fcee91e71315
+  PBHome: 8e33865eb9e3c8a222d1ef49228d24ae3c89c29d
+  PBMine: b3071518c2666a57b68cabb2c90514b602b51cf5
+  SDWebImage: 4b86a229f30a77a39c9a4d1aea624b02a9b30ebe
+  YYText: d2750fe6ef7d191178d05dcd571107de50de3197
+
+PODFILE CHECKSUM: 79e2d28397368ce3add71a6ef5987cc1e589c4bd
+
+COCOAPODS: 1.2.0
