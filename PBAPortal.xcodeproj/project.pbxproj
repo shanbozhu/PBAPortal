@@ -10,7 +10,6 @@
 		4E27A34E83FD7CA5EC26E637 /* libPods-PBAPortal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5292B3BC8CFB64F3A9A36312 /* libPods-PBAPortal.a */; };
 		9546C9B32137E99800618EF9 /* PBHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9546C9B22137E99800618EF9 /* PBHome.framework */; };
 		9546C9B52137E99800618EF9 /* PBMine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9546C9B42137E99800618EF9 /* PBMine.framework */; };
-		B058DC5B201494BC005633F6 /* doc.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = B058DC5A201494BC005633F6 /* doc.rtfd */; };
 		B0DFE2A61FC56591008D7DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0DFE2A11FC56590008D7DB2 /* Assets.xcassets */; };
 		B0DFE2A71FC56591008D7DB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DFE2A21FC56590008D7DB2 /* main.m */; };
 		B0DFE2A81FC56591008D7DB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DFE2A31FC56590008D7DB2 /* AppDelegate.m */; };
@@ -22,7 +21,6 @@
 		5292B3BC8CFB64F3A9A36312 /* libPods-PBAPortal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PBAPortal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9546C9B22137E99800618EF9 /* PBHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PBHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9546C9B42137E99800618EF9 /* PBMine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PBMine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B058DC5A201494BC005633F6 /* doc.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = doc.rtfd; sourceTree = "<group>"; };
 		B06D54121F6D2E210092623E /* PBAPortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBAPortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07CABB11FCEDC36008151C5 /* PBHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PBHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07CABB21FCEDC36008151C5 /* PBMine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PBMine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,7 +95,6 @@
 				B0DFE2A11FC56590008D7DB2 /* Assets.xcassets */,
 				B0DFE2A21FC56590008D7DB2 /* main.m */,
 				B0DFE2A41FC56590008D7DB2 /* Info.plist */,
-				B058DC5A201494BC005633F6 /* doc.rtfd */,
 			);
 			path = Src;
 			sourceTree = "<group>";
@@ -172,7 +169,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0DFE2A61FC56591008D7DB2 /* Assets.xcassets in Resources */,
-				B058DC5B201494BC005633F6 /* doc.rtfd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
