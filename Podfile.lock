@@ -16,6 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - PBHome (1.0.2-SNAPSHOT)
   - PBMine (1.0.2-SNAPSHOT)
+  - PBNavigator (1.0.2-SNAPSHOT)
   - SDWebImage (4.1.2):
     - SDWebImage/Core (= 4.1.2)
   - SDWebImage/Core (4.1.2)
@@ -25,25 +26,28 @@ DEPENDENCIES:
   - AFNetworking (~> 3.2.1)
   - PBHome (= 1.0.2-SNAPSHOT)
   - PBMine (= 1.0.2-SNAPSHOT)
+  - PBNavigator (= 1.0.2-SNAPSHOT)
   - SDWebImage (~> 4.1.0)
   - YYText (~> 1.0.7)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - SDWebImage
     - YYText
   https://github.com/shanbozhu/PBASpec.git:
     - PBHome
     - PBMine
+    - PBNavigator
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   PBHome: 8e33865eb9e3c8a222d1ef49228d24ae3c89c29d
   PBMine: b3071518c2666a57b68cabb2c90514b602b51cf5
+  PBNavigator: 46921d3cc6ac6add2f6ea0d3af1476302b7409f8
   SDWebImage: cb6f9f266a9977741efcbc21e618e8be3734c774
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: d8aac41d04852afa2421a605d827120dceeacb36
+PODFILE CHECKSUM: 58efc94ef32d45332e86d96528948994f5843ebd
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4

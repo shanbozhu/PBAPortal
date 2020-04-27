@@ -1,0 +1,6 @@
+framework module PBNavigator {
+  umbrella header "PBNavigator.h"
+
+  export *
+  module * { export * }
+}

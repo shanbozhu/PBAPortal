@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "88444802D180D4F4E9CA4790B671FDBE"
+               BlueprintIdentifier = "9EE4B4DEDE161FB60DD19809480D549C"
+               BuildableName = "libPods-PBAPortal.a"
                BlueprintName = "Pods-PBAPortal"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-PBAPortal.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

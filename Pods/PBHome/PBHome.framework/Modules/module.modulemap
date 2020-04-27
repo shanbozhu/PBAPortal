@@ -1,6 +1,0 @@
-framework module PBHome {
-  umbrella header "PBHome.h"
-
-  export *
-  module * { export * }
-}

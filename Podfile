@@ -13,6 +13,7 @@ target 'PBAPortal' do
     #项目内部库
     pod 'PBHome', '1.0.2-SNAPSHOT'
     pod 'PBMine', '1.0.2-SNAPSHOT'
+    pod 'PBNavigator', '1.0.2-SNAPSHOT'
     
     #集团二方库
     
