@@ -7,4 +7,13 @@
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:../PBHome/PBHome.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../PBMine/PBMine.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../PBNavigator/PBNavigator.xcodeproj">
+   </FileRef>
 </Workspace>
