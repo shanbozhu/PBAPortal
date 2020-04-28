@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4E27A34E83FD7CA5EC26E637 /* libPods-PBAPortal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5292B3BC8CFB64F3A9A36312 /* libPods-PBAPortal.a */; };
+		95D700562458432A00404BE1 /* PBHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D700552458432A00404BE1 /* PBHome.framework */; };
+		95D700702458443000404BE1 /* PBMine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D7006F2458443000404BE1 /* PBMine.framework */; };
+		95D700722458443400404BE1 /* PBNavigator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D700712458443400404BE1 /* PBNavigator.framework */; };
 		B0DFE2A61FC56591008D7DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0DFE2A11FC56590008D7DB2 /* Assets.xcassets */; };
 		B0DFE2A71FC56591008D7DB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DFE2A21FC56590008D7DB2 /* main.m */; };
 		B0DFE2A81FC56591008D7DB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DFE2A31FC56590008D7DB2 /* AppDelegate.m */; };
@@ -17,6 +20,9 @@
 		1407A6E75272B150CB33A30E /* Pods-PBAPortal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PBAPortal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PBAPortal/Pods-PBAPortal.debug.xcconfig"; sourceTree = "<group>"; };
 		210BC279542447F815706B29 /* Pods-PBAPortal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PBAPortal.release.xcconfig"; path = "Pods/Target Support Files/Pods-PBAPortal/Pods-PBAPortal.release.xcconfig"; sourceTree = "<group>"; };
 		5292B3BC8CFB64F3A9A36312 /* libPods-PBAPortal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PBAPortal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D700552458432A00404BE1 /* PBHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PBHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D7006F2458443000404BE1 /* PBMine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PBMine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D700712458443400404BE1 /* PBNavigator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PBNavigator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06D54121F6D2E210092623E /* PBAPortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBAPortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0DFE29F1FC56590008D7DB2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0DFE2A01FC56590008D7DB2 /* PBAPortal.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBAPortal.pch; sourceTree = "<group>"; };
@@ -31,6 +37,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95D700722458443400404BE1 /* PBNavigator.framework in Frameworks */,
+				95D700702458443000404BE1 /* PBMine.framework in Frameworks */,
+				95D700562458432A00404BE1 /* PBHome.framework in Frameworks */,
 				4E27A34E83FD7CA5EC26E637 /* libPods-PBAPortal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +59,9 @@
 		64FEBD0089CEBB98E393B744 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				95D700712458443400404BE1 /* PBNavigator.framework */,
+				95D7006F2458443000404BE1 /* PBMine.framework */,
+				95D700552458432A00404BE1 /* PBHome.framework */,
 				5292B3BC8CFB64F3A9A36312 /* libPods-PBAPortal.a */,
 			);
 			name = Frameworks;
