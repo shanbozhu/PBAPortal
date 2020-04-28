@@ -1,0 +1,6 @@
+framework module PBMine {
+  umbrella header "PBMine.h"
+
+  export *
+  module * { export * }
+}
