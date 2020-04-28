@@ -11,27 +11,6 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>PBHome.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>PBMine.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>PBNavigator.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
 		<key>Pods-PBAPortal.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -55,6 +34,22 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>4EE600FBC7F881FBB8722D856E2ED8D2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D8E0E429371BC9AEB68714D80A0BCC31</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F8B65BE8E841404C840FBFF749E92786</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
