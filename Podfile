@@ -1,10 +1,10 @@
 #ali_source 'alibaba-specs' # 集团内部仓库
 #ali_source 'alibaba-specs-mirror' # 官方镜像仓库
 
-# 私有仓库地址
-source 'https://github.com/shanbozhu/PBASpec.git'
 # 官方仓库地址
 source 'https://github.com/CocoaPods/Specs.git'
+# 私有仓库地址
+source 'https://github.com/shanbozhu/PBASpec.git'
 
 platform :ios, '8.0'
 target 'PBAPortal' do

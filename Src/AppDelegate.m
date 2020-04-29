@@ -52,25 +52,25 @@
     [self.window makeKeyAndVisible];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    //Controller
+    // Controller
     Class vc1Class = NSClassFromString(@"PBHomeController");
     UIViewController *vc1 = [[vc1Class alloc]init];
     vc1.view.backgroundColor = [UIColor whiteColor];
-    vc1.title = @"首页00";
+    vc1.title = @"首页";
     
     Class vc2Class = NSClassFromString(@"PBMineController");
     UIViewController *vc2 = [[vc2Class alloc]init];
     vc2.view.backgroundColor = [UIColor whiteColor];
-    vc2.title = @"我的11";
+    vc2.title = @"我的";
     
-    //tab
+    // tab
     UITabBarController *tab = [[UITabBarController alloc]init];
     tab.viewControllers = @[vc1, vc2];
     
-    //nav
+    // nav
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:tab];
     
-    //window.rootViewController
+    // window.rootViewController
     self.window.rootViewController = nav;
     
     return YES;
