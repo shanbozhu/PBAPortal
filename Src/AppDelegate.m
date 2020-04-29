@@ -56,12 +56,12 @@
     Class vc1Class = NSClassFromString(@"PBHomeController");
     UIViewController *vc1 = [[vc1Class alloc]init];
     vc1.view.backgroundColor = [UIColor whiteColor];
-    vc1.title = @"首页";
+    vc1.title = @"首页00";
     
     Class vc2Class = NSClassFromString(@"PBMineController");
     UIViewController *vc2 = [[vc2Class alloc]init];
     vc2.view.backgroundColor = [UIColor whiteColor];
-    vc2.title = @"我的";
+    vc2.title = @"我的11";
     
     //tab
     UITabBarController *tab = [[UITabBarController alloc]init];

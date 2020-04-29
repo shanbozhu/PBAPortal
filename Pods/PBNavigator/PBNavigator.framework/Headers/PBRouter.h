@@ -11,7 +11,7 @@
 
 @interface PBRouter : NSObject
 
-+(void)routerWithGoPageName:(NSString *)pageName andParas:(NSDictionary *)paras;
-+(void)routerWithBackPageName:(NSString *)pageName andParas:(NSDictionary *)paras;
++ (void)routerWithGoPageName:(NSString *)pageName andParas:(NSDictionary *)paras;
++ (void)routerWithBackPageName:(NSString *)pageName andParas:(NSDictionary *)paras;
 
 @end

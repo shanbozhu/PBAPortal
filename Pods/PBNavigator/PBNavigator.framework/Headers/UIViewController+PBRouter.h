@@ -10,6 +10,6 @@
 
 @interface UIViewController (PBRouter)
 
--(void)routerWithParas:(NSDictionary *)paras;
+- (void)routerWithParas:(NSDictionary *)paras;
 
 @end

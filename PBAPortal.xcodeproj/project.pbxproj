@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4E27A34E83FD7CA5EC26E637 /* libPods-PBAPortal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5292B3BC8CFB64F3A9A36312 /* libPods-PBAPortal.a */; };
+		9558783024592EBD00FDB356 /* PBMine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D7006F2458443000404BE1 /* PBMine.framework */; };
 		95D700562458432A00404BE1 /* PBHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D700552458432A00404BE1 /* PBHome.framework */; };
-		95D700702458443000404BE1 /* PBMine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D7006F2458443000404BE1 /* PBMine.framework */; };
 		95D700722458443400404BE1 /* PBNavigator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D700712458443400404BE1 /* PBNavigator.framework */; };
 		B0DFE2A61FC56591008D7DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0DFE2A11FC56590008D7DB2 /* Assets.xcassets */; };
 		B0DFE2A71FC56591008D7DB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DFE2A21FC56590008D7DB2 /* main.m */; };
@@ -37,8 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9558783024592EBD00FDB356 /* PBMine.framework in Frameworks */,
 				95D700722458443400404BE1 /* PBNavigator.framework in Frameworks */,
-				95D700702458443000404BE1 /* PBMine.framework in Frameworks */,
 				95D700562458432A00404BE1 /* PBHome.framework in Frameworks */,
 				4E27A34E83FD7CA5EC26E637 /* libPods-PBAPortal.a in Frameworks */,
 			);

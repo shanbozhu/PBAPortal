@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-//点我,测试拉拉啊
-//点我,测试拉拉啊
-//点我,测试拉拉啊
-//点我,测试拉拉啊
-//点我,测试拉拉啊
+// 点我,测试拉拉啊
+// 点我,测试拉拉啊
+// 点我,测试拉拉啊
+// 点我,测试拉拉啊
+// 点我,测试拉拉啊
 
 @interface PBMineController : UIViewController
 
