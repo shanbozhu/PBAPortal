@@ -6,11 +6,15 @@
 //  Copyright © 2017年 DaMaiIOS. All rights reserved.
 //
 
-#import "AppDelegate.h"
-
-
 /**
- 
+                   ---------------------
+                  |     PBNavigator     |
+                  |    [alone build]    |
+                   ---------------------
+                            |
+                       [dependency]
+                            |
+                            V
                    ---------------------
                   |       PBOther       |
                   |    [alone build]    |
@@ -31,13 +35,21 @@
   |        PBHome       |          |       PBMine        |
   |    [alone build]    |          |    [alone build]    |
    ---------------------            ---------------------
- 
- 1.PBHome,PBMine,PBOther等bundle单独编译生成framework
+             ^                                ^
+             |                                |
+        [dependency]                     [dependency]
+             |                                |
+   ---------------------            ---------------------
+  |     PBNavigator     |          |     PBNavigator     |
+  |    [alone build]    |          |    [alone build]    |
+   ---------------------            ---------------------
+ 1.PBHome、PBMine、PBOther、PBNavigator等bundle单独编译生成framework
  2.PBAPortal链接所有的framework生成可执行文件
+ 3.PBHome、PBMine、PBOther等业务bundle互不依赖,PBHome、PBMine、PBOther均会依赖PBNavigator等底层bundle
  3.A bundle依赖B bundle,且B bundle修改了暴露的头文件,则联编时需要先编译B bundle,在编译A bundle,最后多次编译APortal
- 
  */
 
+#import "AppDelegate.h"
 
 @interface AppDelegate ()
 
