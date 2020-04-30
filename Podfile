@@ -8,7 +8,6 @@ source 'https://github.com/shanbozhu/PBASpec.git'
 
 platform :ios, '8.0'
 target 'PBAPortal' do
-    
     # 项目内部库
     pod 'PBHome', '1.0.2-SNAPSHOT'
     pod 'PBMine', '1.0.2-SNAPSHOT'
@@ -20,5 +19,4 @@ target 'PBAPortal' do
     pod 'YYText', '~> 1.0.7'
     pod 'SDWebImage', '~> 4.1.0'
     pod 'AFNetworking', '~> 3.2.1'
-
 end
