@@ -43,6 +43,7 @@
   |     PBNavigator     |          |     PBNavigator     |
   |    [alone build]    |          |    [alone build]    |
    ---------------------            ---------------------
+ 
  1.PBHome、PBMine、PBOther、PBNavigator等bundle单独编译生成framework
  2.PBAPortal主工程(壳工程)链接所有的framework生成可执行文件
  3.PBHome、PBMine、PBOther等业务bundle互不依赖,PBHome、PBMine、PBOther均会依赖PBNavigator等底层bundle
