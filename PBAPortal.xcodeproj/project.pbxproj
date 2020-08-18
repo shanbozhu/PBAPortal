@@ -70,8 +70,8 @@
 		B06D54091F6D2E210092623E = {
 			isa = PBXGroup;
 			children = (
-				B0DFE2A51FC56591008D7DB2 /* Res */,
-				B0DFE29E1FC56590008D7DB2 /* Src */,
+				B0DFE2A51FC56591008D7DB2 /* Resources */,
+				B0DFE29E1FC56590008D7DB2 /* Sources */,
 				B06D54131F6D2E210092623E /* Products */,
 				27E3D903BF7DDB9560A14263 /* Pods */,
 				64FEBD0089CEBB98E393B744 /* Frameworks */,
@@ -86,7 +86,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B0DFE29E1FC56590008D7DB2 /* Src */ = {
+		B0DFE29E1FC56590008D7DB2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				B0DFE29F1FC56590008D7DB2 /* AppDelegate.h */,
@@ -96,14 +96,14 @@
 				B0DFE2A21FC56590008D7DB2 /* main.m */,
 				B0DFE2A41FC56590008D7DB2 /* Info.plist */,
 			);
-			path = Src;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		B0DFE2A51FC56591008D7DB2 /* Res */ = {
+		B0DFE2A51FC56591008D7DB2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Res;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,8 +352,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = W4TDPYH3Z3;
-				GCC_PREFIX_HEADER = Src/PBAPortal.pch;
-				INFOPLIST_FILE = Src/Info.plist;
+				GCC_PREFIX_HEADER = Sources/PBAPortal.pch;
+				INFOPLIST_FILE = Sources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zsb.PBAPortal;
@@ -369,8 +369,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = W4TDPYH3Z3;
-				GCC_PREFIX_HEADER = Src/PBAPortal.pch;
-				INFOPLIST_FILE = Src/Info.plist;
+				GCC_PREFIX_HEADER = Sources/PBAPortal.pch;
+				INFOPLIST_FILE = Sources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zsb.PBAPortal;
